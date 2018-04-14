@@ -1,4 +1,4 @@
-
+﻿
 ## Vehicle Detection Project
 
 The goals / steps of this project are the following:
@@ -83,7 +83,7 @@ for i in range(5):
 ```
 
 
-![png](output_4_0.png)
+![png](outputs/output_4_0.png)
 
 
 
@@ -98,7 +98,7 @@ for i in range(5):
 ```
 
 
-![png](output_5_0.png)
+![png](outputs/output_5_0.png)
 
 
 
@@ -186,7 +186,7 @@ histogram_features = color_hist(car_test_image, plot_histogram = True)
 ```
 
 
-![png](output_10_0.png)
+![png](outputs/output_10_0.png)
 
 
 
@@ -197,7 +197,7 @@ histogram_features = color_hist(car_test_image_yCrCb, plot_histogram = True)
 ```
 
 
-![png](output_11_0.png)
+![png](outputs/output_11_0.png)
 
 
 
@@ -238,7 +238,7 @@ plt.title('HOG Visualization - Not Car',fontsize=7)
 
 
 
-![png](output_12_1.png)
+![png](outputs/output_12_1.png)
 
 
 
@@ -627,7 +627,7 @@ plt.imshow(window_img)
 
 
 
-![png](output_26_1.png)
+![png](outputs/output_26_1.png)
 
 
 #### Video Implementation
@@ -703,7 +703,7 @@ fig.tight_layout()
 ```
 
 
-![png](output_28_0.png)
+![png](outputs/output_28_0.png)
 
 
 #### 2. Provide a link to your final video output. Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
